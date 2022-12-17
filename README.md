@@ -1,11 +1,11 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Test
+# <img src="public/icons/icon_48.png" width="45" align="left"> FaceFaceFace
 
-My Chrome Extension
+Chrome Extension centered around face-api-js
 
 ## Features
 
-- Feature 1
-- Feature 2
+- Detect Faces
+- Block Faces
 
 ## Install
 

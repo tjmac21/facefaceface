@@ -1,0 +1,1 @@
+var e="4.1.0",s="4.1.0",t="4.1.0",n="4.1.0",i="4.1.0",w={tfjs:e,"tfjs-core":e,"tfjs-converter":s,"tfjs-backend-cpu":t,"tfjs-backend-webgl":n,"tfjs-backend-wasm":i};export{w as version};

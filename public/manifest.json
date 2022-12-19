@@ -29,7 +29,7 @@
       "matches": [
         "<all_urls>"
       ],
-      "run_at": "document_idle",
+      "run_at": "document_start",
       "js": [
         "contentScript.js",
         "/w/worker.js"
@@ -38,8 +38,11 @@
   ],
   "web_accessible_resources": [
     {
-    "resources": ["/models/*", "/w/worker.js"],
+    "resources": ["/models/*", "/w/worker.js", "/images/*"],
     "matches": ["<all_urls>"]
     }
-  ]
+  ],
+  "content_security_policy": {
+    "extension_page":"script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
 }
